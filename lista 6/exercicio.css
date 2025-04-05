@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e2f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+}
+
+#titulo {
+    font-size: 36px;
+    color: #4fc3f7;
+    text-align: center;
+    background-color: #2b2b40;
+    padding: 30px 0;
+    border-bottom: 2px solid #4fc3f7;
+}
+
+.falandosobre {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    background-color: #2b2b40;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.perfil {
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #4fc3f7;
+}
+
+#descricao {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dddddd;
+}
+
+.habilidades {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2b2b40;
+    border-radius: 10px;
+}
+
+.habilidades li {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #aeea00;
+}
+
+.rede-social {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4fc3f7;
+    transition: color 0.3s ease;
+}
+
+.rede-social:hover {
+    color: #00e676;
+}
