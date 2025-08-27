@@ -7,7 +7,7 @@
 <body>
   <h1>Exercícios JavaScript Resolvidos - ETEC PW I</h1>
   <script>
-    // Nível Fácil - Fundamentos
+    
     let nome = prompt("Qual seu nome?");
     alert("Olá, " + nome + "!");
 
@@ -24,7 +24,7 @@
     let nota2 = Number(prompt("Nota 2:"));
     alert("Média: " + ((nota1 + nota2) / 2));
 
-    // Nível Fácil - Decisão
+   
     let num = Number(prompt("Digite um número:"));
     alert(num % 2 === 0 ? "Par" : "Ímpar");
 
@@ -44,7 +44,7 @@
     let senha = prompt("Digite a senha:");
     alert(senha === "1234" ? "Acesso permitido" : "Acesso negado");
 
-    // Nível Fácil - Repetição
+    
     for(let i = 1; i <= 10; i++) console.log(i);
 
     nome = prompt("Digite seu nome:");
@@ -62,7 +62,7 @@
     for(i = 1; i <= 100; i++) soma += i;
     console.log("Soma:", soma);
 
-    // Nível Médio - Fundamentos
+   
     n1 = Number(prompt("Número 1:"));
     n2 = Number(prompt("Número 2:"));
     alert(`Soma: ${n1+n2}\nSubtração: ${n1-n2}\nMultiplicação: ${n1*n2}\nDivisão: ${n1/n2}`);
@@ -83,7 +83,6 @@
     let sobrenome = prompt("Sobrenome:");
     alert("Nome completo: " + nome + " " + sobrenome);
 
-    // Nível Médio - Decisão
     nota = Number(prompt("Nota:"));
     alert(nota >= 6 ? "Aprovado" : "Reprovado");
 
@@ -113,7 +112,6 @@
     let imc = peso / (altura * altura);
     alert("IMC: " + imc.toFixed(2));
 
-    // Nível Médio - Repetição
     soma = 0;
     for(i = 0; i < 5; i++) {
       soma += Number(prompt(`Número ${i+1}:`));
@@ -140,7 +138,7 @@
     let palavra = prompt("Digite uma palavra:");
     for(i = 0; i < palavra.length; i++) console.log(palavra[i]);
 
-    // Nível Difícil - Fundamentos
+  
     let frase = prompt("Digite uma frase:");
     let palavras = frase.split(" ");
     alert("Número de palavras: " + palavras.length);
@@ -161,7 +159,7 @@
     let dolar = real / 5;
     alert("Em dólar: " + dolar.toFixed(2));
 
-    // Nível Difícil - Decisão
+  
     let cpf = prompt("Digite o CPF:");
     alert(cpf.length === 11 ? "CPF Válido" : "CPF Inválido");
 
@@ -188,7 +186,7 @@
     if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) alert("Forma um triângulo");
     else alert("Não forma triângulo");
 
-    // Nível Difícil - Repetição
+    
     let secreto = Math.floor(Math.random() * 10) + 1;
     let chute;
     do {
@@ -225,3 +223,4 @@
   </script>
 </body>
 </html>
+
